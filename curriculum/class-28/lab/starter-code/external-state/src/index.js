@@ -1,16 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/app";
 
-class App extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-        <div>Name: </div>
-        <div># of Updates: </div>
-      </React.Fragment>
-    );
-  }
-}
-
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
